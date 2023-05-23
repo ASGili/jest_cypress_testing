@@ -117,6 +117,4 @@ describe('Calculator', () => {
     fireEvent.click(equals);
     expect(runningTotal.textContent).toEqual('6');
   })
-
 })
-
